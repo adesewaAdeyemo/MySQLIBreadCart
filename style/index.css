@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(237, 234, 234);
+}
+.bodyContainer{
+    width: 45%;
+    margin: auto;
+}
+.bodyContainer .email, .name, .tel, .pLink, .rLink, .resume, .file, .why{
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 10px;
+    margin-top: .8rem;
+    background-color: #fff;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 1px 1px 1px rgb(191, 188, 188);
+}
+.join{
+    border-top: 10px solid rgb(173, 171, 171);
+    border-radius: 10px;
+    margin-top: .8rem;
+    background-color: #fff;
+    padding: 2rem;
+    text-align: left;
+    box-shadow: 1px 1px 1px rgb(191, 188, 188);
+}
+.join hr{
+    margin: 1rem -2rem;
+}
+.join a{
+    color: black;
+    text-decoration: none;
+}
+.join .switch{
+    color: blue;
+}
+.bodyContainer .star{
+    display: inline;
+    color: red;
+}
+.header{
+    text-align: center;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: .8rem;
+    background-color: #fff;
+}
+.header h1{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.header .mellon{
+    color: rgb(42, 176, 42);
+    box-shadow: 1px 1px 1px rgb(191, 188, 188);
+}
+input{
+    width: 50%;
+    margin-left: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-top: 1.5rem;
+    padding: 10px;
+}
+.resume input, input[type="submit"]{
+border: 0;
+}
+.action input[type="reset"]{
+    border: 0;
+    outline: 0;
+}
+/* .action .log_in{
+    margin: 10px 1rem 0 0;
+} */
+.action{ 
+    display: flex;
+    justify-content: space-between;  
+}
+.action .submit{
+    border-radius: 4px;
+    background-color: rgb(179, 178, 178);
+    max-width: 20%;
+    box-shadow: 1px 1px 1px rgb(191, 188, 188);
+}
+footer{
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    padding: 10px 0;
+}

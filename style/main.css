@@ -1,0 +1,75 @@
+*{
+    border: 0;
+    padding: 0%;
+}
+body{
+    background-color: transparent;
+}
+.header{
+    text-align: center;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: .8rem;
+}
+.header h1{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.header .mellon{
+    color: rgb(93, 61, 20);
+    box-shadow: 1px 1px 1px rgb(191, 188, 188);
+}
+.user{
+    width: 30%;
+    margin:auto;
+    margin-top: 2%;
+    padding: 1% 10%;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top: 10px solid rgb(118, 112, 104);
+    box-shadow: 2px 2px 2px rgb(222, 222, 222);
+}
+.userForm input{
+    border: 1px solid rgb(210, 208, 208);
+}
+.userForm input:hover{
+    outline: 1px solid rgb(93, 61, 20);
+}
+.log{
+    color: rgb(93, 61, 20);
+    display: flex;
+}
+.log input[type='submit']{
+    background-color: rgb(93, 61, 20);
+    color: #fff;
+    box-shadow: 1px 1px 1px rgb(32, 28, 32);
+    border: transparent;
+    padding: 5px 20px;
+}
+.forget{
+    float: right;
+    color: rgb(93, 61, 20);
+    text-decoration: none;
+}
+h6{
+    text-align: center;
+}
+h6 a{
+    text-decoration:none;
+    color: rgb(93, 61, 20);
+}
+.userEmail, .userPassword{
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+h6{
+    font-size: 1rem;
+}
+.log{
+    justify-content: space-between;
+}
